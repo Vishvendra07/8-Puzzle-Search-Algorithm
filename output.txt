@@ -1,0 +1,13 @@
+
+Search Algorithms Comparison Table:
+Algorithm | Heuristic | Path Cost | Depth     | Time Taken | Nodes Expanded
+------------------------------------------------------------------------------
+DFS       | N/A       | 428       | 428       | 0.0074 sec | 435      
+BFS       | N/A       | 6         | 6         | 0.0006 sec | 58       
+UCS       | N/A       | 6         | 6         | 0.0006 sec | 58       
+GBS       | misplaced | 6         | 6         | 0.0001 sec | 6        
+GBS       | manhattan | 6         | 6         | 0.0001 sec | 6        
+A*        | misplaced | 6         | 6         | 0.0001 sec | 6        
+A*        | manhattan | 6         | 6         | 0.0001 sec | 6        
+------------------------------------------------------------------------------
+
